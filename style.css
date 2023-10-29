@@ -1,0 +1,83 @@
+.titleContainer {
+    margin: auto;
+    width: 1210px;
+}
+
+.bodyContainer {
+    width: 1500px;
+    height: 2175px;
+    border: 3px solid gray;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.infoContainer {
+    width: auto;
+    height: 185px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed grey;
+}
+
+.infoContainer2 {
+    width: auto;
+    height: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.moreInfoContainer {
+    width: auto;
+    height: 230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.uniquePlot {
+    width: 1495px;
+    height: 1675px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed grey;
+}
+
+#title_gas {
+    color: #bd162c;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#title_neptune {
+    color: #123DB3;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#myBtn {
+    height: 35px;
+    background-color: gray; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
